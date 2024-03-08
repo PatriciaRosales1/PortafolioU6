@@ -66,4 +66,50 @@ public class Juego {
                     "\nColores incorrectos: " + coloresIncorrectos;
         }
     }
+
+
+    //Para comprobar si es correcta
+    public boolean esCombinacionCorrecta(List<Color> combinacionUsuario) {
+        return combinacion.equals(combinacionUsuario);
+    }
+
+
+    //Para comprobar la combinación que introduce el usuario
+    //Dice los que están bien y mal colocados
+    //Muestra un mensaje de si has acertado o has fallado la combinación. Si la has fallado indica cual era la combinación correcta
+    public String comprobarCombinacionUsuario(List<Color> combinacionUsuario) {
+        int bienColocados = 0;
+        int coloresIncorrectos = 0;
+
+        List<Color> coloresNoBienColocados = new ArrayList<>(combinacion);
+        List<Color> coloresBienColocados = new ArrayList<>();
+
+        for (int i = 0; i < nivel; i++) {
+            if (combinacion.get(i).equals(combinacionUsuario.get(i))) {
+                bienColocados++;
+                coloresBienColocados.add(combinacion.get(i));
+                coloresNoBienColocados.remove(combinacion.get(i));
+            } else if (coloresNoBienColocados.contains(combinacionUsuario.get(i))) {
+                coloresNoBienColocados.remove(combinacionUsuario.get(i));
+            }
+        }
+
+        coloresIncorrectos = coloresNoBienColocados.size();
+
+        String resultadoComprobacion = "Bien colocados: " + bienColocados + "\nColores incorrectos: " + coloresIncorrectos;
+
+        combinacionFila filaCombinacion = new combinacionFila(combinacionUsuario, coloresNoBienColocados);
+        intentos.add(filaCombinacion);
+
+        if (bienColocados == nivel) {
+            resultadoComprobacion += "\n¡Felicidades! ¡Has acertado la combinación!";
+            iniciado = false;
+
+        } else if (intentoActual() >= limite) {
+            resultadoComprobacion += "\n¡Lo siento! Has alcanzado el límite de intentos. La combinación correcta era: " + obtenerNombresColores(combinacion);
+            iniciado = false;
+        }
+
+        return resultadoComprobacion;
+    }
 }
