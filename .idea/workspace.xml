@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1d8bfb2-4611-4577-8979-94bbf3dbd314" name="Changes" comment="Añadidas propiedades en ControladorMastermind">
-      <change beforePath="$PROJECT_DIR$/src/main/java/di/portafoliou6/ControladorMastermind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/portafoliou6/ControladorMastermind.java" afterDir="false" />
-    </list>
+    <list default="true" id="d1d8bfb2-4611-4577-8979-94bbf3dbd314" name="Changes" comment="Añadidos métodos para comprobar la combinación y pasar a la siguiente fila si es incorrecta" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +103,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709918617926</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Añadidos métodos para el ComboBox y para los círculos de cada fila">
+      <created>1709920940971</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709920940971</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Añadidos métodos para comprobar la combinación y pasar a la siguiente fila si es incorrecta">
+      <created>1709922385801</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709922385801</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +139,8 @@
     <MESSAGE value="Acabada clase Juego" />
     <MESSAGE value="Creado mastermind.fxml" />
     <MESSAGE value="Añadidas propiedades en ControladorMastermind" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadidas propiedades en ControladorMastermind" />
+    <MESSAGE value="Añadidos métodos para el ComboBox y para los círculos de cada fila" />
+    <MESSAGE value="Añadidos métodos para comprobar la combinación y pasar a la siguiente fila si es incorrecta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadidos métodos para comprobar la combinación y pasar a la siguiente fila si es incorrecta" />
   </component>
 </project>

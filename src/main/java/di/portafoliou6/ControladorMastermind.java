@@ -1,6 +1,7 @@
 package di.portafoliou6;
 
 import javafx.fxml.FXML;
+import javafx.scene.Node;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.ListCell;
 import javafx.scene.control.TextArea;
@@ -204,5 +205,35 @@ public class ControladorMastermind {
             primerCirculo.setDisable(false);
         }
 
+    }
+
+
+    //Métodos para reiniciar el juego
+
+    @FXML
+    void reiniciarJuego() {
+        juego = new Juego();
+
+        limpiarFilas();
+        resultado.clear();
+    }
+
+
+    private void limpiarFilas() {
+        HBox[] filas = {fila1, fila2, fila3, fila4, fila5};
+
+        for (HBox fila : filas) {
+            for (Node nodo : fila.getChildren()) {
+                if (nodo instanceof Circle) {
+                    Circle circulo = (Circle) nodo;
+                    circulo.setFill(Color.WHITE);
+                    circulo.setDisable(false);
+                }
+            }
+        }
+
+        // Habilita el primer círculo de la primera fila
+        Circle primerCirculo = (Circle) fila1.getChildren().get(0);
+        primerCirculo.setDisable(false);
     }
 }
