@@ -4,18 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1d8bfb2-4611-4577-8979-94bbf3dbd314" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/di/portafoliou6/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/di/portafoliou6/hello-view.fxml" afterDir="false" />
+    <list default="true" id="d1d8bfb2-4611-4577-8979-94bbf3dbd314" name="Changes" comment="Creado mastermind.fxml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/di/portafoliou6/ControladorMastermind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/portafoliou6/ControladorMastermind.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2dPa7OuAReeIbPtF6NAZzZFiykH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,9 +35,19 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/patri/Documentos/Interfaces/PortafolioU6/src/main/resources/di/portafoliou6"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="di.portafoliou6" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\patri\Documentos\Interfaces\PortafolioU6\src\main\resources\di\portafoliou6" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -38,6 +57,49 @@
       <option name="presentableId" value="Default" />
       <updated>1709911998793</updated>
     </task>
+    <task id="LOCAL-00001" summary="Inicio portafolio ud6">
+      <created>1709912067896</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709912067896</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creadas clases Aplicación, Juego y ControladorMastermind">
+      <created>1709912414854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709912414854</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Creado propiedades, constructor y métodos para la combinación aleatoria">
+      <created>1709912824465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709912824465</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Añadidos métodos para comprobar la combinación">
+      <created>1709916654794</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709916654794</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Acabada clase Juego">
+      <created>1709917806966</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709917806966</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Creado mastermind.fxml">
+      <created>1709918418546</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709918418546</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -50,5 +112,14 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inicio portafolio ud6" />
+    <MESSAGE value="Creadas clases Aplicación, Juego y ControladorMastermind" />
+    <MESSAGE value="Creado propiedades, constructor y métodos para la combinación aleatoria" />
+    <MESSAGE value="Añadidos métodos para comprobar la combinación" />
+    <MESSAGE value="Acabada clase Juego" />
+    <MESSAGE value="Creado mastermind.fxml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creado mastermind.fxml" />
   </component>
 </project>
