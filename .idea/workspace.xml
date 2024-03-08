@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1d8bfb2-4611-4577-8979-94bbf3dbd314" name="Changes" comment="Creado mastermind.fxml">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d1d8bfb2-4611-4577-8979-94bbf3dbd314" name="Changes" comment="Añadidas propiedades en ControladorMastermind">
       <change beforePath="$PROJECT_DIR$/src/main/java/di/portafoliou6/ControladorMastermind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/portafoliou6/ControladorMastermind.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709918418546</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Añadidas propiedades en ControladorMastermind">
+      <created>1709918617926</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709918617926</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +126,7 @@
     <MESSAGE value="Añadidos métodos para comprobar la combinación" />
     <MESSAGE value="Acabada clase Juego" />
     <MESSAGE value="Creado mastermind.fxml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creado mastermind.fxml" />
+    <MESSAGE value="Añadidas propiedades en ControladorMastermind" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadidas propiedades en ControladorMastermind" />
   </component>
 </project>

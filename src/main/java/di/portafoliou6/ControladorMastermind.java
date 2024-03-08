@@ -8,6 +8,9 @@ import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ControladorMastermind {
     private Juego juego = new Juego();
     private HBox[] filas;
@@ -150,5 +153,56 @@ public class ControladorMastermind {
             Circle siguienteCirculo = (Circle) fila.getChildren().get(indiceCirculo + 1);
             siguienteCirculo.setDisable(false);
         }
+    }
+
+    //Para obtener la combinación que acaba de introducir el usuario
+    private List<Color> obtenerCombinacionFila(HBox fila) {
+        List<Color> combinacion = new ArrayList<>();
+        for (int i = 0; i < fila.getChildren().size(); i++) {
+            Circle circulo = (Circle) fila.getChildren().get(i);
+            combinacion.add((Color) circulo.getFill());
+        }
+        return combinacion;
+    }
+
+
+    //Métodos para comprobar la combinación
+
+    @FXML
+    void comprobarCombinacion() {
+        // Utilizar indiceFilaActual que ahora es un miembro de la clase
+        List<Color> combinacionUsuario = obtenerCombinacionFila((HBox) fila.getParent().getChildrenUnmodifiable().get(indiceFilaActual));
+
+        String resultadoComprobacion = juego.comprobarCombinacionUsuario(combinacionUsuario);
+        resultado.setText(resultadoComprobacion);
+
+        if (!juego.esCombinacionCorrecta(combinacionUsuario)) {
+            // Pasa a la siguiente fila
+            avanzarSiguienteFila();
+        }
+    }
+
+
+    //Para cambiar de fila
+    private void avanzarSiguienteFila() {
+        // Deshabilitar los círculos de la fila actual
+        for (int i = 0; i < fila.getChildren().size(); i++) {
+            Circle circulo = (Circle) fila.getChildren().get(i);
+            circulo.setDisable(true);
+        }
+
+        // Obtener la siguiente fila
+        indiceFilaActual = (fila.getParent()).getChildrenUnmodifiable().indexOf(fila);
+        if (indiceFilaActual < filas.length - 1) {
+            // Si hay más filas disponibles, avanza a la siguiente
+            fila = filas[indiceFilaActual + 1];
+        }
+
+        // Habilitar el primer círculo de la siguiente fila
+        if (fila != null && !fila.getChildren().isEmpty()) {
+            Circle primerCirculo = (Circle) fila.getChildren().get(0);
+            primerCirculo.setDisable(false);
+        }
+
     }
 }
