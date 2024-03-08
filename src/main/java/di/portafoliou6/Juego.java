@@ -112,4 +112,44 @@ public class Juego {
 
         return resultadoComprobacion;
     }
+
+
+    //Para comprobar qué color es
+    private Color obtenerColorPorIndice(int indice) {
+        Color[] coloresArray = {Color.RED, Color.GREEN, Color.BLUE, Color.YELLOW, Color.PINK};
+        return (indice >= 0 && indice < coloresArray.length) ? coloresArray[indice] : Color.BLACK;
+    }
+
+
+    //Para convertir los colores de hexadecimal al nombre
+    private String obtenerNombresColores(List<Color> colores) {
+        StringBuilder nombres = new StringBuilder();
+        for (Color color : colores) {
+            String nombreColor = obtenerNombreColor(color);
+            nombres.append(nombreColor).append(" ");
+        }
+        // Eliminar la coma del final
+        if (nombres.length() > 0) {
+            nombres.deleteCharAt(nombres.length() - 1);
+        }
+        return nombres.toString();
+    }
+
+
+    //Para obtener el nombre del color
+    private String obtenerNombreColor(Color color) {
+        if (color.equals(Color.RED)) {
+            return "Rojo";
+        } else if (color.equals(Color.GREEN)) {
+            return "Verde";
+        } else if (color.equals(Color.BLUE)) {
+            return "Azul";
+        } else if (color.equals(Color.YELLOW)) {
+            return "Amarillo";
+        } else if (color.equals(Color.PINK)) {
+            return "Rosa";
+        } else {
+            return "";
+        }
+    }
 }
