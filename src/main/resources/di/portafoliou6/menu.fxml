@@ -53,7 +53,7 @@
                         <Insets />
                      </VBox.margin>
                   </HBox>
-                  <Button fx:id="empezar" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#iniciar" prefHeight="27.0" prefWidth="81.0" style="-fx-border-color: purple; -fx-border-radius: 20px; -fx-background-color: purple; -fx-background-radius: 20px; -fx-text-fill: white;" text="Empezar">
+                  <Button fx:id="empezar" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#iniciar" prefHeight="27.0" prefWidth="81.0" style="-fx-border-color: purple; -fx-border-radius: 20px; -fx-background-color: purple; -fx-background-radius: 20px; -fx-text-fill: white;" text="Empezar">
                      <VBox.margin>
                         <Insets bottom="10.0" left="175.0" />
                      </VBox.margin>

@@ -13,7 +13,7 @@ import javafx.scene.shape.Circle;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ControladorMastermind {
+public class ControladorMastermind2 {
     private Juego juego = new Juego();
     private HBox[] filas;
     private HBox fila;
@@ -109,7 +109,7 @@ public class ControladorMastermind {
     private void cargarImagenDeFondo() {
         try {
             // Ajusta la ruta de la imagen según tu estructura de proyecto
-            Image imagenFondo = new Image(getClass().getResourceAsStream("/di/portafoliou6/fondo.jpg"));
+            Image imagenFondo = new Image(getClass().getResourceAsStream("/di/portafoliou6/fondo2.jpg"));
 
             BackgroundImage fondo1 = new BackgroundImage(imagenFondo, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, BackgroundSize.DEFAULT);
             Background fondo2 = new Background(fondo1);

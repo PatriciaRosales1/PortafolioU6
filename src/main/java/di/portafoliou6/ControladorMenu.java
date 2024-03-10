@@ -7,6 +7,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.CheckBox;
+import javafx.scene.image.Image;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BackgroundImage;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -29,7 +32,6 @@ public class ControladorMenu implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         nivel1.selectedProperty().addListener((observable, oldValue, newValue) -> iniciar());
         nivel2.selectedProperty().addListener((observable, oldValue, newValue) -> iniciar());
-
 
     }
 
