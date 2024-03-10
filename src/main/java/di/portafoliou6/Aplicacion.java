@@ -13,12 +13,12 @@ public class Aplicacion extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         //Crea una variable llamada vista que lee el fichero fxml
-        FXMLLoader vista = new FXMLLoader(Juego.class.getResource("mastermind.fxml"));
+        FXMLLoader vista = new FXMLLoader(Juego.class.getResource("menu.fxml"));
         //Carga la anterior vista
-        Scene scene = new Scene(vista.load(), 497, 413);
+        Scene scene = new Scene(vista.load(), 530, 413);
         //
 
-        //juego.crearCombinacion();
+        juego.crearCombinacion();
 
         stage.setTitle("Mastermind");
         stage.setScene(scene);

@@ -46,7 +46,7 @@ public class Juego {
         Random aleatorio = new Random();
         for (int i = 0; i < this.nivel; i++) {
             int indiceColor = aleatorio.nextInt(this.colores);
-            //this.combinacion.add(obtenerColorPorIndice(indiceColor));
+            this.combinacion.add(obtenerColorPorIndice(indiceColor));
         }
     }
 

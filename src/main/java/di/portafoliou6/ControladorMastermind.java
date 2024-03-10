@@ -40,10 +40,12 @@ public class ControladorMastermind {
     private TextArea resultado;
 
 
+
     //--------MÉTODOS--------
 
     @FXML
     void initialize() {
+
         filas = new HBox[]{fila1,fila2,fila3,fila4,fila5};
         for (HBox fila : filas) {
             configurarEventosCirculosEnFila(fila);
@@ -98,6 +100,8 @@ public class ControladorMastermind {
         resultado.setWrapText(true);
 
     }
+
+
 
     private String getColorName(Color color) {
         if (color.equals(Color.RED)) {

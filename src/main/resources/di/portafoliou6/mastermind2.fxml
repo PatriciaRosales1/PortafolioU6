@@ -26,6 +26,7 @@
                <children>
                   <HBox fx:id="fila1" alignment="CENTER" prefHeight="25.0" prefWidth="201.0" spacing="20.0">
                      <children>
+                        <Circle fx:id="circulo11" fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                         <Circle fx:id="circulo1" fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                         <Circle fx:id="circulo2" fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                         <Circle fx:id="circulo3" fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
@@ -38,6 +39,7 @@
                         <Circle fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                         <Circle fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                         <Circle fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
+                        <Circle fx:id="circulo12" fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                      </children>
                   </HBox>
                   <HBox fx:id="fila3" alignment="CENTER" prefHeight="25.0" prefWidth="560.0" spacing="20.0">
@@ -46,6 +48,7 @@
                         <Circle fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                         <Circle fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                         <Circle fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
+                        <Circle fx:id="circulo13" fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                      </children>
                   </HBox>
                   <HBox fx:id="fila4" alignment="CENTER" prefHeight="25.0" prefWidth="560.0" spacing="20.0">
@@ -54,6 +57,7 @@
                         <Circle fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                         <Circle fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                         <Circle fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
+                        <Circle fx:id="circulo14" fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                      </children>
                   </HBox>
                   <HBox fx:id="fila5" alignment="CENTER" prefHeight="25.0" prefWidth="560.0" spacing="20.0">
@@ -62,6 +66,7 @@
                         <Circle fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                         <Circle fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                         <Circle fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
+                        <Circle fx:id="circulo15" fill="#ffffff00" radius="12.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: white;" />
                      </children>
                   </HBox>
                   <VBox alignment="CENTER" prefHeight="55.0" prefWidth="247.0" spacing="10.0">

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="413.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="di.portafoliou6.ControladorMenu">
+   <children>
+      <VBox alignment="CENTER" prefHeight="243.0" prefWidth="470.0" style="-fx-background-color: #D0C2CF; -fx-border-color: purple;">
+         <children>
+            <Label text="Mastermind">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER_LEFT" prefHeight="159.0" prefWidth="428.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="15.0" prefWidth="154.0" text="Escoge una opción: ">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="50.0" right="10.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <HBox alignment="CENTER" prefHeight="125.0" prefWidth="428.0">
+                     <children>
+                        <CheckBox fx:id="nivel1" mnemonicParsing="false" prefHeight="18.0" prefWidth="68.0" text="Nivel 1">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets right="40.0" />
+                           </HBox.margin>
+                        </CheckBox>
+                        <CheckBox fx:id="nivel2" mnemonicParsing="false" text="Nivel 2">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </CheckBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <Button fx:id="empezar" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#iniciar" prefHeight="27.0" prefWidth="81.0" style="-fx-border-color: purple; -fx-border-radius: 20px; -fx-background-color: purple; -fx-background-radius: 20px; -fx-text-fill: white;" text="Empezar">
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="175.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+         <VBox.margin>
+            <Insets left="50.0" right="50.0" />
+         </VBox.margin>
+      </VBox>
+   </children>
+</VBox>

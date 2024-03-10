@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1d8bfb2-4611-4577-8979-94bbf3dbd314" name="Changes" comment="Añadidos métodos para comprobar la combinación y pasar a la siguiente fila si es incorrecta" />
+    <list default="true" id="d1d8bfb2-4611-4577-8979-94bbf3dbd314" name="Changes" comment="Añadidos métodos para reiniciar la partida">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/di/portafoliou6/ControladorMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/di/portafoliou6/mastermind2.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/di/portafoliou6/menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/di/portafoliou6/Aplicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/portafoliou6/Aplicacion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/di/portafoliou6/ControladorMastermind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/portafoliou6/ControladorMastermind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/di/portafoliou6/Juego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/di/portafoliou6/Juego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/di/portafoliou6/mastermind.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/di/portafoliou6/mastermind.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +27,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -34,6 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/patri/Documentos/Interfaces/PortafolioU6/src/main/java/di/portafoliou6",
     "last_opened_file_path": "C:/Users/patri/Documentos/Interfaces/PortafolioU6/src/main/resources/di/portafoliou6"
   }
 }]]></component>
@@ -44,6 +60,30 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\patri\Documentos\Interfaces\PortafolioU6\src\main\resources\di\portafoliou6" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\patri\Documentos\Interfaces\PortafolioU6\src\main\resources" />
+      <recent name="C:\Users\patri\Documentos\Interfaces\PortafolioU6\src\main\resources\di\portafoliou6" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Aplicacion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="di.portafoliou6.Aplicacion" />
+      <module name="PortafolioU6" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="di.portafoliou6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Aplicacion" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -117,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709922385801</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Añadidos métodos para reiniciar la partida">
+      <created>1709924343903</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709924343903</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +188,7 @@
     <MESSAGE value="Añadidas propiedades en ControladorMastermind" />
     <MESSAGE value="Añadidos métodos para el ComboBox y para los círculos de cada fila" />
     <MESSAGE value="Añadidos métodos para comprobar la combinación y pasar a la siguiente fila si es incorrecta" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadidos métodos para comprobar la combinación y pasar a la siguiente fila si es incorrecta" />
+    <MESSAGE value="Añadidos métodos para reiniciar la partida" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadidos métodos para reiniciar la partida" />
   </component>
 </project>
